@@ -60,7 +60,7 @@ def crackle_pop_variation_two
 			
 		end
 
-		puts 'lol'
+		puts x
 	end
 end
 
