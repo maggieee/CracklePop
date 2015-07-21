@@ -6,7 +6,6 @@
 def my_fave_crackle_pop
 	array = (1..100).to_a
 	array.each do |i|
-
 		if i%15 == 0
 			puts 'CracklePop'
 		elsif i%3 == 0
@@ -51,13 +50,10 @@ def crackle_pop_variation_two
 			if i%5 == 0
 				x = 'CracklePop'
 			end
-			
 		elsif i%5 == 0
 			x = 'Pop'
-			
 		else
 			x = i
-			
 		end
 
 		puts x
